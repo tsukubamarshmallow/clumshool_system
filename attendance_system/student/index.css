@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color:#f9a825 ;
+  color: #fff;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #ffa034; /* 赤に設定 */
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff; /* 枠線を追加 */
+}
+
+td {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ffb836; /* 枠線を追加 */
+}
+
+
+tr:nth-child(even) {
+  background-color: #f6f6f7;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  background-color:#f9a825 ;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #f9a825;
+}
+
+.header h1 {
+  color: #070707;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header{
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,26 @@
+1.生徒mypageを動的に生成する
+・課題提出ができること
+・成績登録が可能
+・講師に質問可能
+-DB構造(id,comment,url,parent_id,course_id,student_id,date)
+・目標を更新可能
+2.講師mypageの作成
+・基本構造は生徒mypageと同じ
+・講座にニュースを作成可能
+・提出課題にコメントと成績を付けられる
+・出欠を記録できる
+・
+
+CREATE TABLE questions(
+    id int AUTO_INCREMENT  primary key NOT NULL,
+    title text NOT NULL,
+    comment text NOT NULL,
+    url text,
+    parent_id int,
+    course_id int NOT NULL,
+    student_id int,
+    teacher_id int,
+    created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+)
+
+

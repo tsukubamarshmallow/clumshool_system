@@ -1,0 +1,122 @@
+/* CSSスタイルの追加 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #333;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.button-lists {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-lists li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-lists input[type="submit"] {
+    background-color: #00aeff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-lists input[type="submit"]:hover {
+    background-color: #00aeff;
+}
+
+.ticket {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.task_title label,
+.subject label,
+.content label,
+.situation label,
+.deadline label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+input,select{
+    background-color:#d5fdff
+}
+.task_title input[type="text"],
+.deadline input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.content input[type="text"]{
+    width: 100%;
+    height: 10em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.content textarea{
+    width: 100%;
+    height: 10em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.subject select,
+.situation select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

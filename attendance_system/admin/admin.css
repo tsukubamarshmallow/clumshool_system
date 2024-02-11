@@ -1,0 +1,114 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  /* 検索ボタン */
+  #search-input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* テーブルスタイル */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table.instructor_lists input[type="text"]{
+    display:none;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #067a40;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+/* 講座登録フォーム */
+form {
+    width: 70%;
+    margin-top:20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /*inputを隠す*/
+  .hidden{
+    display:none !important;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+      
+  }
+  

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>システムへのリンク</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <p>塾生管理システム</p>
+    <p>学籍番号:202212022</p>
+    <p>名前:田島瑞起</p>
+</body>
+    <h1>システム概要</h1>
+    <p>このシステムでは以下の要件を満たすように機能を付けました</p>
+
+    <li>管理者が生徒情報を登録・閲覧可能</li>
+    <li>管理者が講座を登録・閲覧可能</li>
+    <li>管理者が指導者を登録・閲覧可能</li>
+    <li>生徒が受講講座ごとのマイページを確認可能</li>
+    <li>マイページでは目標設定や宿題の提出,質問の投稿が可能</li>
+    <li>指導者が生徒の出席情報を管理できること(未実装)</li>
+    <p>上述した機能を付与するため,管理者画面と生徒画面を分け,生徒側はログインによってマイページを閲覧できるようにしました</p>
+
+    <p>個人情報を入力することが出来ないため,殆どテストデータを取り扱っています。ご了承ください。</p>
+    
+    <a href="s2212022_f_Mizuki_Tajima.pptx">パワーポイント</a><br>
+    
+
+    <a href="login_form.php">生徒用ログインフォーム(log:test1@test.com,pass:test1)</a><br>
+    <a href="admin/course.php">コース管理画面</a><br>
+    <a href="admin/instructor.php">指導者管理画面</a><br>
+    <a href="admin/students.php">生徒管理画面</a><br>
+    <a href="student/index.php">生徒受講コース選択画面</a><br>
+    <a href="admin/course_register.php">生徒講座関連登録画面</a><br>
+    
+</html>
